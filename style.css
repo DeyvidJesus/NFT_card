@@ -61,8 +61,6 @@ body {
 }
 
 #equilibrium-background {
-    width: 23.5%;
-    height: 37.5%;
     opacity: .4;
     display: none;
     position: absolute;
@@ -169,6 +167,13 @@ strong:hover {
 }
 
 /* MEDIA QUERIES */
+
+@media (max-width: 1440px) {
+    #equilibrium-background {
+        width: 23.5%;
+        height: 51.5%;
+    }
+}
 
 @media (max-width: 1024px) {
     #card {
